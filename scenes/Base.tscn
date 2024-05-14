@@ -1,13 +1,12 @@
-[gd_scene load_steps=16 format=3 uid="uid://btdx0qopt688k"]
+[gd_scene load_steps=15 format=3 uid="uid://btdx0qopt688k"]
 
-[ext_resource type="Script" path="res://scripts/Base.gd" id="1_jjpn7"]
-[ext_resource type="Texture2D" uid="uid://bqneu0w2c6gsy" path="res://scripts/tile.png" id="3_px8qy"]
-[ext_resource type="Texture2D" uid="uid://dg3l3yokg6s7b" path="res://scripts/tile_selected.png" id="4_dfinc"]
+[ext_resource type="Texture2D" uid="uid://bqneu0w2c6gsy" path="res://scripts/houset1.png" id="3_px8qy"]
+[ext_resource type="Texture2D" uid="uid://dg3l3yokg6s7b" path="res://scripts/houset2.png" id="4_dfinc"]
 [ext_resource type="Texture2D" uid="uid://v8j4xbtuxyg2" path="res://scripts/First Asset pack.png" id="5_frkqe"]
 [ext_resource type="Script" path="res://scenes/TileMap.gd" id="5_jv1rx"]
-[ext_resource type="Texture2D" uid="uid://dr2ke0mjk8vjv" path="res://empty_tile.png" id="5_x0c1e"]
-[ext_resource type="Texture2D" uid="uid://dmcs1iwxb0iwq" path="res://building_component.png" id="6_6pidt"]
-[ext_resource type="Texture2D" uid="uid://dsiudf7bn6i4e" path="res://house.png" id="7_et4jm"]
+[ext_resource type="Texture2D" path="res://empty_tile.png" id="5_x0c1e"]
+[ext_resource type="Texture2D" path="res://building_component.png" id="6_6pidt"]
+[ext_resource type="Texture2D" path="res://house.png" id="7_et4jm"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vdpxf"]
 texture = ExtResource("3_px8qy")
@@ -174,18 +173,16 @@ sources/0 = SubResource("TileSetAtlasSource_vdpxf")
 sources/7 = SubResource("TileSetAtlasSource_vyixo")
 
 [node name="Base" type="Node2D"]
-script = ExtResource("1_jjpn7")
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_gcfmg")
 format = 2
-layer_0/tile_data = PackedInt32Array(327696, 65542, 1, 393232, 65542, 2, 458768, 65542, 3, 327697, 131078, 1, 393233, 131078, 2, 458769, 131078, 3, 327698, 196614, 1, 393234, 196614, 2, 458770, 196614, 3)
 layer_1/tile_data = PackedInt32Array()
 script = ExtResource("5_jv1rx")
 
-[node name="build_ui" type="CanvasLayer" parent="TileMap"]
+[node name="UI" type="CanvasLayer" parent="TileMap"]
 
-[node name="hud" type="Control" parent="TileMap/build_ui"]
+[node name="hud" type="Control" parent="TileMap/UI"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -196,7 +193,7 @@ grow_horizontal = 2
 grow_vertical = 2
 metadata/_edit_use_anchors_ = true
 
-[node name="house1" type="TextureButton" parent="TileMap/build_ui/hud"]
+[node name="house1" type="TextureButton" parent="TileMap/UI/hud"]
 layout_mode = 0
 offset_left = 51.0
 offset_top = 474.0
@@ -204,4 +201,13 @@ offset_right = 83.0
 offset_bottom = 506.0
 texture_normal = ExtResource("3_px8qy")
 
-[connection signal="pressed" from="TileMap/build_ui/hud/house1" to="." method="build_mode"]
+[node name="house2" type="TextureButton" parent="TileMap/UI/hud"]
+layout_mode = 0
+offset_left = 51.0
+offset_top = 425.0
+offset_right = 83.0
+offset_bottom = 457.0
+texture_normal = ExtResource("4_dfinc")
+
+[connection signal="pressed" from="TileMap/UI/hud/house1" to="TileMap" method="_on_house_1_pressed"]
+[connection signal="pressed" from="TileMap/UI/hud/house2" to="TileMap" method="_on_house_2_pressed"]
