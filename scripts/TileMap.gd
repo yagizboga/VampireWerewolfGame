@@ -12,9 +12,9 @@ func _process(delta):
 		building.show()
 		building.position = map_to_local(tile)
 		if Input.is_action_just_pressed("left_mouse"):
-				set_cell(0,tile,5,Vector2(0,0),0)
-				building.hide()
-				building_mode = false	
+			set_cell(0,tile,0,Vector2(0,0),0)
+			building.hide()
+			building_mode = false	
 		if Input.is_action_just_pressed("right_mouse"):
 			building.hide()
 			building_mode = false
@@ -24,7 +24,7 @@ func activate():
 
 	
 func update_building_texture():
-	var texture = load("res://house.png")
+	var texture = load("res://assets/SpriteSheet.png")
 	building.texture = texture
 	add_child(building)
 	building.hide()

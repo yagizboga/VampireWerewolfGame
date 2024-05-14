@@ -1,8 +1,9 @@
-StaticBody2D
 TextureButton
+Panel
+VBoxContainer
+StaticBody2D
 Control
 TileMap
-VBoxContainer
 Button
 Sprite2D
 CanvasLayer
