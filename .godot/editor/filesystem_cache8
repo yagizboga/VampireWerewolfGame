@@ -1,0 +1,16 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1715692625
+building_component.png::CompressedTexture2D::8006796721974976980::1715688970::1715688971::1::::<><>::
+empty_tile.png::CompressedTexture2D::8408826237433762275::1715686597::1715686597::1::::<><>::
+house.png::CompressedTexture2D::8440396267947936742::1715691817::1715691817::1::::<><>::
+::res://assets/::1715641420
+part-Slice 36.png::CompressedTexture2D::3756444648363924722::1715641413::1715641416::1::::<><>::
+part-Slice 37.png::CompressedTexture2D::6277686677804049983::1715641413::1715641416::1::::<><>::
+::res://scenes/::1715692613
+Base.tscn::PackedScene::3727643844468190328::1715692612::0::1::::<><>::res://scripts/Base.gd<>uid://bqneu0w2c6gsy::::res://scripts/tile.png<>uid://dg3l3yokg6s7b::::res://scripts/tile_selected.png<>uid://v8j4xbtuxyg2::::res://scripts/First Asset pack.png<>res://scenes/TileMap.gd<>uid://dr2ke0mjk8vjv::::res://empty_tile.png<>uid://dmcs1iwxb0iwq::::res://building_component.png<>uid://dsiudf7bn6i4e::::res://house.png
+TileMap.gd::GDScript::-1::1715692613::0::1::::<>TileMap<>::
+::res://scripts/::1715686961
+Base.gd::GDScript::-1::1715685043::0::1::::<>Node2D<>::
+First Asset pack.png::CompressedTexture2D::1542689633713582303::1715680896::1715680896::1::::<><>::
+tile.png::CompressedTexture2D::3536559024853665932::1715681488::1715681488::1::::<><>::
+tile_selected.png::CompressedTexture2D::7638916861822217249::1715681594::1715681594::1::::<><>::
