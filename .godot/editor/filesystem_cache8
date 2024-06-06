@@ -1,16 +1,250 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1715726934
-::res://assets/::1715726934
-empty_tile.png::CompressedTexture2D::1002861655454776968::1715718105::1715726635::1::::<><>::
-part-Slice 36.png::CompressedTexture2D::3756444648363924722::1715718105::1715718105::1::::<><>::
-part-Slice 37.png::CompressedTexture2D::6277686677804049983::1715718105::1715718105::1::::<><>::
-SpriteSheet.png::CompressedTexture2D::2511125596043626490::1715726925::1715726934::1::::<><>::
-tile.png::CompressedTexture2D::2696525344050631422::1715726353::1715726635::1::::<><>::
-::res://scenes/::1715726635
-Base.tscn::PackedScene::3727643844468190328::1715726635::0::1::::<><>::uid://beohm4qtliygc::::res://assets/tile.png<>uid://bqneu0w2c6gsy::::res://scripts/houset1.png<>uid://dg3l3yokg6s7b::::res://scripts/houset2.png<>res://scripts/TileMap.gd
-::res://scripts/::1715726402
-First Asset pack.png::CompressedTexture2D::1542689633713582303::1715718105::1715718105::1::::<><>::
-houset1.png::CompressedTexture2D::3536559024853665932::1715718105::1715718118::1::::<><>::
-houset2.png::CompressedTexture2D::7638916861822217249::1715718105::1715718118::1::::<><>::
-tile.png::CompressedTexture2D::3117634144724887279::1715726346::1715726346::1::::<><>::
-TileMap.gd::GDScript::-1::1715726402::0::1::::<>TileMap<>::
+::res://::1715732336
+icon.svg::CompressedTexture2D::5616584744248385561::1715732326::1715732338::1::::<><>::
+::res://Art/::1715732326
+::res://Art/brackeys_platformer_assets/::1715732326
+LICENSE & CREDITS.txt::TextFile::-1::1715732326::0::1::::<><>::
+::res://Art/brackeys_platformer_assets/fonts/::1715732326
+PixelOperator8-Bold.ttf::FontFile::7641040338968214535::1715732326::1715732326::1::::<><>::
+PixelOperator8.ttf::FontFile::7682938631342754273::1715732326::1715732326::1::::<><>::
+::res://Art/brackeys_platformer_assets/music/::1715732326
+time_for_adventure.mp3::AudioStreamMP3::5216739342209449369::1715732326::1715732326::1::::<><>::
+::res://Art/brackeys_platformer_assets/sounds/::1715732326
+coin.wav::AudioStreamWAV::4163774698626210780::1715732326::1715732326::1::::<><>::
+explosion.wav::AudioStreamWAV::2177309762670367155::1715732326::1715732326::1::::<><>::
+hurt.wav::AudioStreamWAV::8776677223324613102::1715732326::1715732326::1::::<><>::
+jump.wav::AudioStreamWAV::2975264224070122336::1715732326::1715732326::1::::<><>::
+power_up.wav::AudioStreamWAV::5996255876040529057::1715732326::1715732326::1::::<><>::
+tap.wav::AudioStreamWAV::5104956681474926946::1715732326::1715732326::1::::<><>::
+::res://Art/brackeys_platformer_assets/sprites/::1715732326
+coin.png::CompressedTexture2D::3402588326302856549::1715732326::1715732326::1::::<><>::
+fruit.png::CompressedTexture2D::6733856864595483358::1715732326::1715732326::1::::<><>::
+knight.png::CompressedTexture2D::4782653691728370683::1715732326::1715732326::1::::<><>::
+platforms.png::CompressedTexture2D::6662750546230626917::1715732326::1715732326::1::::<><>::
+slime_green.png::CompressedTexture2D::2423540862400495214::1715732326::1715732326::1::::<><>::
+slime_purple.png::CompressedTexture2D::2441115640067511233::1715732326::1715732326::1::::<><>::
+world_tileset.png::CompressedTexture2D::4942991638893976667::1715732326::1715732326::1::::<><>::
+::res://Art/FreeKnight_v1/::1715732326
+Comparison2x.png::CompressedTexture2D::15067866769128523::1715732326::1715732326::1::::<><>::
+::res://Art/FreeKnight_v1/Colour1/::1715732326
+::res://Art/FreeKnight_v1/Colour1/NoOutline/::1715732326
+::res://Art/FreeKnight_v1/Colour1/NoOutline/120x80_gifs/::1715732326
+::res://Art/FreeKnight_v1/Colour1/NoOutline/120x80_PNGSheets/::1715732326
+_Attack2.png::CompressedTexture2D::4718969381336544458::1715732326::1715732326::1::::<><>::
+_Attack2NoMovement.png::CompressedTexture2D::985864919780814977::1715732326::1715732326::1::::<><>::
+_Attack.png::CompressedTexture2D::3594725546433554863::1715732326::1715732326::1::::<><>::
+_AttackCombo.png::CompressedTexture2D::2876139967037598551::1715732326::1715732326::1::::<><>::
+_AttackComboNoMovement.png::CompressedTexture2D::287451600599030948::1715732326::1715732326::1::::<><>::
+_AttackNoMovement.png::CompressedTexture2D::2571051691924906558::1715732326::1715732326::1::::<><>::
+_Crouch.png::CompressedTexture2D::2650647219050998878::1715732326::1715732326::1::::<><>::
+_CrouchAttack.png::CompressedTexture2D::5676428167067590571::1715732326::1715732326::1::::<><>::
+_CrouchFull.png::CompressedTexture2D::6682321041580273432::1715732326::1715732326::1::::<><>::
+_CrouchTransition.png::CompressedTexture2D::1458826255744470164::1715732326::1715732326::1::::<><>::
+_CrouchWalk.png::CompressedTexture2D::4654130660209596356::1715732326::1715732326::1::::<><>::
+_Dash.png::CompressedTexture2D::3259156946073098744::1715732326::1715732326::1::::<><>::
+_Death.png::CompressedTexture2D::3470126005719100606::1715732326::1715732326::1::::<><>::
+_DeathNoMovement.png::CompressedTexture2D::2780697411191443490::1715732326::1715732326::1::::<><>::
+_Fall.png::CompressedTexture2D::5701645015062838207::1715732326::1715732326::1::::<><>::
+_Hit.png::CompressedTexture2D::4071557948227040256::1715732326::1715732326::1::::<><>::
+_Idle.png::CompressedTexture2D::6781057183151144301::1715732326::1715732326::1::::<><>::
+_Jump.png::CompressedTexture2D::6009147279705674505::1715732326::1715732326::1::::<><>::
+_JumpFallInbetween.png::CompressedTexture2D::5381525911412378883::1715732326::1715732326::1::::<><>::
+_Roll.png::CompressedTexture2D::5027425427297771131::1715732326::1715732326::1::::<><>::
+_Run.png::CompressedTexture2D::5960505388153020326::1715732326::1715732326::1::::<><>::
+_Slide.png::CompressedTexture2D::5552698806029734068::1715732326::1715732326::1::::<><>::
+_SlideFull.png::CompressedTexture2D::502762564528340290::1715732326::1715732326::1::::<><>::
+_SlideTransitionEnd.png::CompressedTexture2D::1877673828026787932::1715732326::1715732326::1::::<><>::
+_SlideTransitionStart.png::CompressedTexture2D::8192966327795329499::1715732326::1715732326::1::::<><>::
+_TurnAround.png::CompressedTexture2D::3131705162872022072::1715732326::1715732326::1::::<><>::
+_WallClimb.png::CompressedTexture2D::7355337591746746168::1715732326::1715732326::1::::<><>::
+_WallClimbNoMovement.png::CompressedTexture2D::4107703547581434157::1715732326::1715732326::1::::<><>::
+_WallHang.png::CompressedTexture2D::6897224833140911679::1715732326::1715732326::1::::<><>::
+_WallSlide.png::CompressedTexture2D::8520125653373123150::1715732326::1715732326::1::::<><>::
+::res://Art/FreeKnight_v1/Colour1/Outline/::1715732326
+::res://Art/FreeKnight_v1/Colour1/Outline/120x80_gifs/::1715732326
+::res://Art/FreeKnight_v1/Colour1/Outline/120x80_PNGSheets/::1715732326
+_Attack2.png::CompressedTexture2D::3115712102413206800::1715732326::1715732326::1::::<><>::
+_Attack2NoMovement.png::CompressedTexture2D::23233284529386601::1715732326::1715732326::1::::<><>::
+_Attack.png::CompressedTexture2D::7899857723503909592::1715732326::1715732326::1::::<><>::
+_AttackCombo2hit.png::CompressedTexture2D::7029710875190905759::1715732326::1715732326::1::::<><>::
+_AttackComboNoMovement.png::CompressedTexture2D::1147663166981826146::1715732326::1715732326::1::::<><>::
+_AttackNoMovement.png::CompressedTexture2D::6808053772311222816::1715732326::1715732326::1::::<><>::
+_Crouch.png::CompressedTexture2D::2524630783944959231::1715732326::1715732326::1::::<><>::
+_CrouchAttack.png::CompressedTexture2D::5582904971143074213::1715732326::1715732326::1::::<><>::
+_CrouchFull.png::CompressedTexture2D::2446506597754267767::1715732326::1715732326::1::::<><>::
+_CrouchTransition.png::CompressedTexture2D::6787085646592369906::1715732326::1715732326::1::::<><>::
+_CrouchWalk.png::CompressedTexture2D::4701912995066943492::1715732326::1715732326::1::::<><>::
+_Dash.png::CompressedTexture2D::2588610401212488488::1715732326::1715732326::1::::<><>::
+_Death.png::CompressedTexture2D::2829013192153132370::1715732326::1715732326::1::::<><>::
+_DeathNoMovement.png::CompressedTexture2D::1759917164757350596::1715732326::1715732326::1::::<><>::
+_Fall.png::CompressedTexture2D::7927335043170801406::1715732326::1715732326::1::::<><>::
+_Hit.png::CompressedTexture2D::1762122753838691244::1715732326::1715732326::1::::<><>::
+_Idle.png::CompressedTexture2D::5933919305209324348::1715732326::1715732326::1::::<><>::
+_Jump.png::CompressedTexture2D::3641499381216447177::1715732326::1715732326::1::::<><>::
+_JumpFallInbetween.png::CompressedTexture2D::6554079958552471589::1715732326::1715732326::1::::<><>::
+_Roll.png::CompressedTexture2D::264812455568922749::1715732326::1715732326::1::::<><>::
+_Run.png::CompressedTexture2D::9210608308760648552::1715732326::1715732326::1::::<><>::
+_Slide.png::CompressedTexture2D::8427353628504689582::1715732326::1715732326::1::::<><>::
+_SlideFull.png::CompressedTexture2D::5210565086344718439::1715732326::1715732326::1::::<><>::
+_SlideTransitionEnd.png::CompressedTexture2D::1612176267546890733::1715732326::1715732326::1::::<><>::
+_SlideTransitionStart.png::CompressedTexture2D::824255374941028111::1715732326::1715732326::1::::<><>::
+_TurnAround.png::CompressedTexture2D::3522131537665753089::1715732326::1715732326::1::::<><>::
+_WallClimb.png::CompressedTexture2D::4018765037264211891::1715732326::1715732326::1::::<><>::
+_WallClimbNoMovement.png::CompressedTexture2D::7497313483017071847::1715732326::1715732326::1::::<><>::
+_WallHang.png::CompressedTexture2D::6007969125719300979::1715732326::1715732326::1::::<><>::
+_WallSlide.png::CompressedTexture2D::9085759418962720151::1715732326::1715732326::1::::<><>::
+::res://Art/FreeKnight_v1/Colour2/::1715732326
+::res://Art/FreeKnight_v1/Colour2/NoOutline/::1715732326
+::res://Art/FreeKnight_v1/Colour2/NoOutline/120x80_gifs/::1715732326
+::res://Art/FreeKnight_v1/Colour2/NoOutline/120x80_PNGSheets/::1715732326
+_Attack2.png::CompressedTexture2D::685262838968528145::1715732326::1715732326::1::::<><>::
+_Attack2NoMovement.png::CompressedTexture2D::1310905853395902595::1715732326::1715732326::1::::<><>::
+_Attack.png::CompressedTexture2D::1626455124847831795::1715732326::1715732326::1::::<><>::
+_AttackCombo.png::CompressedTexture2D::389779326185391428::1715732326::1715732326::1::::<><>::
+_AttackComboNoMovement.png::CompressedTexture2D::3329823609314224052::1715732326::1715732326::1::::<><>::
+_AttackNoMovement.png::CompressedTexture2D::7397559576355662353::1715732326::1715732326::1::::<><>::
+_Crouch.png::CompressedTexture2D::4897054829146147863::1715732326::1715732326::1::::<><>::
+_CrouchAll.png::CompressedTexture2D::3681776067221654752::1715732326::1715732326::1::::<><>::
+_CrouchAttack.png::CompressedTexture2D::1585348820447101970::1715732326::1715732326::1::::<><>::
+_CrouchTransition.png::CompressedTexture2D::586073045775833466::1715732326::1715732326::1::::<><>::
+_CrouchWalk.png::CompressedTexture2D::3561913170180205881::1715732326::1715732326::1::::<><>::
+_Dash.png::CompressedTexture2D::446397655594321458::1715732326::1715732326::1::::<><>::
+_Death.png::CompressedTexture2D::733527938488897991::1715732326::1715732326::1::::<><>::
+_DeathNoMovement.png::CompressedTexture2D::5280442246941374061::1715732326::1715732326::1::::<><>::
+_Fall.png::CompressedTexture2D::4290750974443108571::1715732326::1715732326::1::::<><>::
+_Hit.png::CompressedTexture2D::8260542172182159279::1715732326::1715732326::1::::<><>::
+_Idle.png::CompressedTexture2D::5937958887443098794::1715732326::1715732326::1::::<><>::
+_Jump.png::CompressedTexture2D::3348703157358510503::1715732326::1715732326::1::::<><>::
+_JumpFallInbetween.png::CompressedTexture2D::388820800622288298::1715732326::1715732326::1::::<><>::
+_Roll.png::CompressedTexture2D::8469045432043547::1715732326::1715732326::1::::<><>::
+_Run.png::CompressedTexture2D::3823789557712674585::1715732326::1715732326::1::::<><>::
+_Slide.png::CompressedTexture2D::4202966337703048829::1715732326::1715732326::1::::<><>::
+_SlideAll.png::CompressedTexture2D::6930626441485631843::1715732326::1715732326::1::::<><>::
+_SlideTransitionEnd.png::CompressedTexture2D::1292607398550396333::1715732326::1715732326::1::::<><>::
+_SlideTransitionStart.png::CompressedTexture2D::7748920824468413700::1715732326::1715732326::1::::<><>::
+_TurnAround.png::CompressedTexture2D::8401622220530492164::1715732326::1715732326::1::::<><>::
+_WallClimb.png::CompressedTexture2D::586986214418811661::1715732326::1715732326::1::::<><>::
+_WallClimbNoMovement.png::CompressedTexture2D::4159327895901083043::1715732326::1715732326::1::::<><>::
+_WallHang.png::CompressedTexture2D::3139724330822979387::1715732326::1715732326::1::::<><>::
+_WallSlide.png::CompressedTexture2D::6101199867646118412::1715732326::1715732326::1::::<><>::
+::res://Art/FreeKnight_v1/Colour2/Outline/::1715732326
+::res://Art/FreeKnight_v1/Colour2/Outline/120x80_gifs/::1715732326
+::res://Art/FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/::1715732326
+_Attack2.png::CompressedTexture2D::330580868973561460::1715732326::1715732326::1::::<><>::
+_Attack2NoMovement.png::CompressedTexture2D::2365676159988361098::1715732326::1715732326::1::::<><>::
+_Attack.png::CompressedTexture2D::7458802981070096257::1715732326::1715732326::1::::<><>::
+_AttackCombo.png::CompressedTexture2D::5775547487473490339::1715732326::1715732326::1::::<><>::
+_AttackComboNoMovement.png::CompressedTexture2D::5930552182328112237::1715732326::1715732326::1::::<><>::
+_AttackNoMovement.png::CompressedTexture2D::6232465931261106406::1715732326::1715732326::1::::<><>::
+_Crouch.png::CompressedTexture2D::7535204367330953995::1715732326::1715732326::1::::<><>::
+_CrouchAll.png::CompressedTexture2D::5752834581886368912::1715732326::1715732326::1::::<><>::
+_CrouchAttack.png::CompressedTexture2D::3979718866023949662::1715732326::1715732326::1::::<><>::
+_CrouchTransition.png::CompressedTexture2D::1456188098152348109::1715732326::1715732326::1::::<><>::
+_CrouchWalk.png::CompressedTexture2D::6064344278424359499::1715732326::1715732326::1::::<><>::
+_Dash.png::CompressedTexture2D::1524569597125494467::1715732326::1715732326::1::::<><>::
+_Death.png::CompressedTexture2D::136314080497465705::1715732326::1715732326::1::::<><>::
+_DeathNoMovement.png::CompressedTexture2D::5758759437601762672::1715732326::1715732326::1::::<><>::
+_Fall.png::CompressedTexture2D::586456366727074267::1715732326::1715732326::1::::<><>::
+_Hit.png::CompressedTexture2D::7518490807700556442::1715732326::1715732326::1::::<><>::
+_Idle.png::CompressedTexture2D::6981322862821955237::1715732326::1715732326::1::::<><>::
+_Jump.png::CompressedTexture2D::1289907940541844556::1715732326::1715732326::1::::<><>::
+_JumpFallInbetween.png::CompressedTexture2D::6152300441804816944::1715732326::1715732326::1::::<><>::
+_Roll.png::CompressedTexture2D::1300993417564292719::1715732326::1715732326::1::::<><>::
+_Run.png::CompressedTexture2D::3364433109809046473::1715732326::1715732326::1::::<><>::
+_Slide.png::CompressedTexture2D::6223886822658957986::1715732326::1715732326::1::::<><>::
+_SlideAll.png::CompressedTexture2D::7885934890720232263::1715732326::1715732326::1::::<><>::
+_SlideTransitionEnd.png::CompressedTexture2D::1935582605375520527::1715732326::1715732326::1::::<><>::
+_SlideTransitionStart.png::CompressedTexture2D::6503582373245089782::1715732326::1715732326::1::::<><>::
+_TurnAround.png::CompressedTexture2D::6353088297895342768::1715732326::1715732326::1::::<><>::
+_WallClimb.png::CompressedTexture2D::6854295047008215485::1715732326::1715732326::1::::<><>::
+_WallClimbNoMovement.png::CompressedTexture2D::3415974007222502957::1715732326::1715732326::1::::<><>::
+_WallHang.png::CompressedTexture2D::8635832770877857508::1715732326::1715732326::1::::<><>::
+_WallSlide.png::CompressedTexture2D::6065674734452362708::1715732326::1715732326::1::::<><>::
+::res://Art/Legacy-Fantasy - High Forest 2.3/::1715732326
+::res://Art/Legacy-Fantasy - High Forest 2.3/Assets/::1715732326
+Buildings.png::CompressedTexture2D::4686427725144915323::1715732326::1715732326::1::::<><>::
+Hive.png::CompressedTexture2D::6394657936269479181::1715732326::1715732326::1::::<><>::
+Interior-01.png::CompressedTexture2D::217173333689287316::1715732326::1715732326::1::::<><>::
+Props-Rocks.png::CompressedTexture2D::5090205668445343934::1715732326::1715732326::1::::<><>::
+Tiles.png::CompressedTexture2D::7401512750144035279::1715732326::1715732326::1::::<><>::
+Tree-Assets.png::CompressedTexture2D::7178870331097205611::1715732326::1715732326::1::::<><>::
+::res://Art/Legacy-Fantasy - High Forest 2.3/Background/::1715732326
+Background.png::CompressedTexture2D::7238749079784220063::1715732326::1715732326::1::::<><>::
+::res://Art/Legacy-Fantasy - High Forest 2.3/Character/::1715732326
+::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Attack-01/::1715732326
+Attack-01-Sheet.png::CompressedTexture2D::5079879209284525964::1715732326::1715732326::1::::<><>::
+::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Dead/::1715732326
+Dead-Sheet.png::CompressedTexture2D::6443906610127812379::1715732326::1715732326::1::::<><>::
+::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Idle/::1715732326
+Idle-Sheet.png::CompressedTexture2D::3191698901617967394::1715732326::1715732326::1::::<><>::
+::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Jumlp-All/::1715732326
+Jump-All-Sheet.png::CompressedTexture2D::7526303731828499064::1715732326::1715732326::1::::<><>::
+::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Jump/::1715732326
+::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Jump-End/::1715732326
+Jump-End-Sheet.png::CompressedTexture2D::6666664165416184416::1715732326::1715732326::1::::<><>::
+::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Jump-Start/::1715732326
+Jump-Start-Sheet.png::CompressedTexture2D::7158788100877397719::1715732326::1715732326::1::::<><>::
+::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Run/::1715732326
+Run-Sheet.png::CompressedTexture2D::4057227587588242539::1715732326::1715732326::1::::<><>::
+::res://Art/Legacy-Fantasy - High Forest 2.3/HUD/::1715732326
+Base-01.png::CompressedTexture2D::6477459062902168072::1715732326::1715732326::1::::<><>::
+::res://Art/Legacy-Fantasy - High Forest 2.3/Mob/::1715732326
+::res://Art/Legacy-Fantasy - High Forest 2.3/Mob/Boar/::1715732326
+::res://Art/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Hit-Vanish/::1715732326
+Hit-Sheet-Black.png::CompressedTexture2D::3786688352299844380::1715732326::1715732326::1::::<><>::
+Hit-Sheet-White.png::CompressedTexture2D::488811304449210132::1715732326::1715732326::1::::<><>::
+Hit-Sheet.png::CompressedTexture2D::6690345976009661664::1715732326::1715732326::1::::<><>::
+::res://Art/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Idle/::1715732326
+Idle-Sheet-export-Back.png::CompressedTexture2D::1864342587777754302::1715732326::1715732326::1::::<><>::
+Idle-Sheet-White.png::CompressedTexture2D::4553767401991047440::1715732326::1715732326::1::::<><>::
+Idle-Sheet.png::CompressedTexture2D::6997545401923041665::1715732326::1715732326::1::::<><>::
+::res://Art/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Run/::1715732326
+Run-Sheet-Black.png::CompressedTexture2D::5972673154005397465::1715732326::1715732326::1::::<><>::
+Run-Sheet-White.png::CompressedTexture2D::8192109053489941624::1715732326::1715732326::1::::<><>::
+Run-Sheet.png::CompressedTexture2D::997863714338175724::1715732326::1715732326::1::::<><>::
+::res://Art/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Walk/::1715732326
+Walk-Base-Sheet-White.png::CompressedTexture2D::4130762353028716129::1715732326::1715732326::1::::<><>::
+Walk-Base-Sheet.png::CompressedTexture2D::5301672386454872976::1715732326::1715732326::1::::<><>::
+Walk-Base-SheetBlack.png::CompressedTexture2D::3269837274060984179::1715732326::1715732326::1::::<><>::
+::res://Art/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/::1715732326
+::res://Art/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Attack/::1715732326
+Attack-Sheet.png::CompressedTexture2D::5376670737499811964::1715732326::1715732326::1::::<><>::
+::res://Art/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Fly/::1715732326
+Fly-Sheet.png::CompressedTexture2D::2623951130522026282::1715732326::1715732326::1::::<><>::
+::res://Art/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Hit/::1715732326
+Hit-Sheet.png::CompressedTexture2D::564563650586026665::1715732326::1715732326::1::::<><>::
+::res://Art/Legacy-Fantasy - High Forest 2.3/Mob/Snail/::1715732326
+all.png::CompressedTexture2D::1049956056817646031::1715732326::1715732326::1::::<><>::
+Dead-Sheet.png::CompressedTexture2D::7212944981192730961::1715732326::1715732326::1::::<><>::
+Hide-Sheet.png::CompressedTexture2D::8828344384878570262::1715732326::1715732326::1::::<><>::
+walk-Sheet.png::CompressedTexture2D::3517919717110739949::1715732326::1715732326::1::::<><>::
+::res://Art/Legacy-Fantasy - High Forest 2.3/Trees/::1715732326
+Background.png::CompressedTexture2D::1099811473244537559::1715732326::1715732326::1::::<><>::
+Dark-Tree.png::CompressedTexture2D::7929573846106212290::1715732326::1715732326::1::::<><>::
+Golden-Tree.png::CompressedTexture2D::93012069045140417::1715732326::1715732326::1::::<><>::
+Green-Tree.png::CompressedTexture2D::1187272624843769143::1715732326::1715732326::1::::<><>::
+Red-Tree.png::CompressedTexture2D::3690429179740667098::1715732326::1715732326::1::::<><>::
+Yellow-Tree.png::CompressedTexture2D::837981805349141813::1715732326::1715732326::1::::<><>::
+::res://assets/::1715732019
+empty_tile.png::CompressedTexture2D::1002861655454776968::1715732019::1715732019::1::::<><>::
+SpriteSheet.png::CompressedTexture2D::2511125596043626490::1715732019::1715732019::1::::<><>::
+tile.png::CompressedTexture2D::2696525344050631422::1715732019::1715732019::1::::<><>::
+::res://Character/::1715732326
+player.gd::GDScript::-1::1715732326::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::2708535609521943804::1715732326::0::1::::<><>::res://Character/player.gd<>uid://dks0rc6e3wax1::::res://Art/FreeKnight_v1/Colour1/Outline/120x80_PNGSheets/_Attack.png<>uid://cqso1wkl4y6nw::::res://Art/FreeKnight_v1/Colour1/Outline/120x80_PNGSheets/_Idle.png<>uid://br477y8cekro0::::res://Art/FreeKnight_v1/Colour1/Outline/120x80_PNGSheets/_Jump.png<>uid://c0m30ext02mor::::res://Art/FreeKnight_v1/Colour1/Outline/120x80_PNGSheets/_JumpFallInbetween.png<>uid://d1jommeac0w4::::res://Art/FreeKnight_v1/Colour1/Outline/120x80_PNGSheets/_Roll.png<>uid://dk7cbx00gtilq::::res://Art/FreeKnight_v1/Colour1/Outline/120x80_PNGSheets/_Fall.png<>uid://d4hxmxmvh777y::::res://Art/FreeKnight_v1/Colour1/Outline/120x80_PNGSheets/_Run.png
+::res://Levels/::1715732326
+enemy.gd::GDScript::-1::1715732326::0::1::::<>Area2D<>::
+enemy.tscn::PackedScene::916332010495996375::1715732326::0::1::::<><>::uid://cae0uwlcxnat4::::res://Art/brackeys_platformer_assets/sprites/knight.png<>res://Levels/enemy.gd
+testlevel.tscn::PackedScene::5194500651291118874::1715732326::0::1::::<><>::uid://ddpl3lwu377xb::::res://Art/Legacy-Fantasy - High Forest 2.3/Assets/Tiles.png<>uid://beubgk0m5kbtc::::res://Character/player.tscn<>uid://nb44bu1y55x8::::res://Levels/enemy.tscn<>uid://6nryd6llr3ob::::res://UI/texture_progress_bar.tscn
+::res://scenes/::1715732019
+Base.tscn::PackedScene::3727643844468190328::1715732019::0::1::::<><>::uid://beohm4qtliygc::::res://assets/tile.png<>uid://bqneu0w2c6gsy::::res://scripts/houset1.png<>uid://dg3l3yokg6s7b::::res://scripts/houset2.png<>res://scripts/TileMap.gd
+::res://scripts/::1715732019
+First Asset pack.png::CompressedTexture2D::1542689633713582303::1715732019::1715732019::1::::<><>::
+houset1.png::CompressedTexture2D::3536559024853665932::1715732019::1715732019::1::::<><>::
+houset2.png::CompressedTexture2D::7638916861822217249::1715732019::1715732019::1::::<><>::
+tile.png::CompressedTexture2D::3117634144724887279::1715732019::1715732019::1::::<><>::
+TileMap.gd::GDScript::-1::1715732019::0::1::::<>TileMap<>::
+::res://UI/::1715732326
+bar-over.png::CompressedTexture2D::7166111264762339194::1715732326::1715732326::1::::<><>::
+bar-progress.png::CompressedTexture2D::2635067998817882053::1715732326::1715732326::1::::<><>::
+texture_progress_bar.tscn::PackedScene::2203766317486706085::1715732326::0::1::::<><>::uid://bdspgj2mnfo0d::::res://UI/bar-progress.png<>uid://dadk2nhjxxqbq::::res://UI/bar-over.png
