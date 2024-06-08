@@ -1,3 +1,2 @@
-res://scenes/Base.tscn
-res://scenes/TileMap.gd
-res://scripts/TileMap.gd
+res://base_vilager_manager.tscn
+res://base_task_manager.gd
